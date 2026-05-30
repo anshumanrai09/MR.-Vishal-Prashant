@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR. Vishal Prashant</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/vp Home.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar-container">
+        <div class="profile-section">
+            <img src="assets/BJP Logo.jpg" alt="BJP Logo" class="logo">
+            <div class="profile-text">
+                <h1 class="name">MR. Vishal Prashant</h1>
+                <p class="designation">MLA . TARARI . BIHAR</p>
+            </div>
+        </div>
+
+      <nav class="nav-links">
+    <!-- Home पेज पर active क्लास यहाँ रहेगी -->
+    <a href="#" class="nav-item active">Home</a>
+    <a href="vp About.html" class="nav-item">About</a>
+    <a href="vp Gallery.html" class="nav-item">Gallery</a>
+</nav>
+
+        <div class="controls-section">
+            <div class="language-dropdown">
+                <i class="fa-solid fa-globe globe-icon"></i>
+                <span>English</span>
+                <i class="fa-solid fa-chevron-down arrow-icon"></i>
+            </div>
+            <a href="https://vishalprashant.com/" class="contact-btn">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper for Uniform Background -->
+    <main class="main-wrapper">
+        
+        <!-- Hero Section -->
+        <section class="hero-container">
+            <div class="hero-content">
+                <h2 class="hero-name">MR. Vishal Prashant</h2>
+                <p class="hero-tagline">
+                    Voice of Tarari <span class="tagline-eng">Youth Leader Vishal Prashant</span>
+                </p>
+                <blockquote class="hero-quote">
+                    "The Voice of Tarari, The Pride of Shahabad. Driven by grassroots trust, dedicated to Bihar's future."
+                </blockquote>
+                <div class="hero-buttons">
+                    <a href="https://vishalprashant.com/" class="btn-primary">Contact Me</a>
+                    <a href="vp About.html" class="btn-secondary">Know More</a>
+                </div>
+            </div>
+        
+            <div class="hero-image-wrapper">
+                <div class="image-card" onmouseenter="playVideo()" onmouseleave="pauseVideo()" ontouchstart="playVideo()">
+                    <div class="flip-card-inner">
+                        <!-- Front Side: Photo -->
+                        <div class="flip-card-front">
+                            <img src="assets/gallery/PHOTO vp.png" alt="Mananiya Vidhayak Vishal Prashant" class="profile-img">
+                        </div>
+                        <!-- Back Side: Video -->
+                        <div class="flip-card-back">
+                            <video id="hover-video" loop muted playsinline>
+                                <source src="assets/NariSamman25.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="features-stats-container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-building-shield"></i></div>
+                    <h3 class="stat-number">150+</h3>
+                    <p class="stat-label">विकास कार्य (Projects Done)</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="stat-number">50K+</h3>
+                    <p class="stat-label">खुशहाल परिवार (Happy Families)</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3 class="stat-number">24/7</h3>
+                    <p class="stat-label">जनता सेवा (Public Service)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Showcase Section -->
+        <section class="development-showcase-container">
+            <div class="dev-header">
+                <span class="badge">तरारी का गौरव (Tarari's Pride)</span>
+                <h2>₹1200 करोड़+ <span class="highlight-text">ऐतिहासिक विकास</span></h2>
+                <p>माननीय विधायक विशाल प्रशांत जी के नेतृत्व में तरारी विधानसभा क्षेत्र के चहुंमुखी विकास का पूरा लेखा-जोखा।</p>
+            </div>
+        
+            <div class="dev-grid">
+                <div class="dev-card">
+                    <div class="dev-icon-wrapper circle-orange">
+                        <i class="fa-solid fa-road"></i>
+                    </div>
+                    <div class="dev-info">
+                        <h3>सड़क एवं पुल निर्माण</h3>
+                        <span class="amount-tag">₹450 करोड़+</span>
+                        <p>गांव-गांव को मुख्य मार्ग से जोड़ने के लिए नई पक्की सड़कों, बाईपास और सुदृढ़ पुलों का जाल बिछाया गया।</p>
+                    </div>
+                </div>
+        
+                <div class="dev-card">
+                    <div class="dev-icon-wrapper circle-green">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="dev-info">
+                        <h3>शिक्षा का सुदृढ़ीकरण</h3>
+                        <span class="amount-tag">₹280 करोड़+</span>
+                        <p>सरकारी स्कूलों का कायाकल्प, नए डिग्री कॉलेजों की स्थापना और स्मार्ट क्लासरूम्स का निर्माण।</p>
+                    </div>
+                </div>
+        
+                <div class="dev-card">
+                    <div class="dev-icon-wrapper circle-blue">
+                        <i class="fa-solid fa-hospital-user"></i>
+                    </div>
+                    <div class="dev-info">
+                        <h3>स्वास्थ्य सेवाएं</h3>
+                        <span class="amount-tag">₹220 करोड़+</span>
+                        <p>प्राथमिक स्वास्थ्य केंद्रों (PHC) का आधुनिकीकरण, एम्बुलेंस सेवाएं और मुफ्त चिकित्सा शिविरों का आयोजन।</p>
+                    </div>
+                </div>
+        
+                <div class="dev-card">
+                    <div class="dev-icon-wrapper circle-purple">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div class="dev-info">
+                        <h3>बिजली और हर घर जल</h3>
+                        <span class="amount-tag">₹250 करोड़+</span>
+                        <p>हर घर शुद्ध पेयजल (नल-जल योजना), नए पावर सब-स्टेशनों की स्थापना और ग्रामीण क्षेत्रों में निर्बाध बिजली।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <!-- Left Block: About -->
+            <div class="footer-box about-box">
+                <img src="assets/BJP Logo.jpg" alt="BJP Logo" class="footer-logo">
+                <h3>MR. Vishal Prashant</h3>
+                <p>MLA . TARARI . BIHAR</p>
+                <p class="footer-moto">"जन-जन की आवाज़, तरारी का विकास।"</p>
+            </div>
+
+            <!-- Center Block: Quick Links -->
+            <div class="footer-box links-box">
+                <h4>Quick Links</h4>
+                <ul>
+                    <!-- Added missing hash tags for proper links -->
+                    <li><a href="vp Home.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About MLA</a></li>
+                    <li><a href="#development"><i class="fa-solid fa-chevron-right"></i> Development Works</a></li>
+                    <li><a href="vp Gallery.html"><i class="fa-solid fa-chevron-right"></i> Photo Gallery</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Block: Contact Info -->
+            <div class="footer-box contact-box">
+                <h4>Contact Office</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Tarari Vidhan Sabha Office, Bhojpur, Bihar</p>
+                <p><i class="fa-solid fa-envelope"></i> vishalprashantbjp@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9430588888</p>
+            </div>
+        </div>
+
+        <!-- Bottom Copyright Bar -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 MR. Vishal Prashant. All Rights Reserved.</p>
+            <p class="design-credit">Designed with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script>
+        const video = document.getElementById('hover-video');
+    
+        function playVideo() {
+            if (video) {
+                video.muted = true; 
+                video.play().catch(error => {
+                    console.log("Video play karne mein dikkat aayi: ", error);
+                });
+            }
+        }
+    
+        function pauseVideo() {
+            if (video) {
+                video.pause();
+                video.currentTime = 0; 
+            }
+        }
+    </script>
+</body>
+</html>
